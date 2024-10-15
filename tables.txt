@@ -17,3 +17,14 @@ CREATE TABLE irradiance
     irradiance FLOAT NOT NULL,
     PRIMARY KEY (id)
 )
+
+CREATE TABLE setting_parameter
+(
+    id INT NOT NULL AUTO_INCREMENT,
+    tanggal DATE NOT NULL,
+    dod FLOAT NOT NULL,
+    crate FLOAT NOT NULL,
+    ramprate FLOAT NOT NULL,
+    maxbss FLOAT NOT NULL,
+    PRIMARY KEY (id)
+)
